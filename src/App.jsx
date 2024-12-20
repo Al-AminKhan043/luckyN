@@ -6,11 +6,12 @@ import Die from './Die'
 import Dice from './Dice'
 import LuckyN from './LuckyN'
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
    <>
-     <LuckyN/>
+      <LuckyN numDice={2} goal={5}/>
+     <LuckyN numDice={4} goal={12}/>
      <LuckyN numDice={3} goal={9}/>
       </>
   )
